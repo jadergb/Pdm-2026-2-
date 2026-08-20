@@ -1,4 +1,3 @@
-// components/Profile.tsx
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
@@ -6,7 +5,7 @@ export default function Profile() {
   return (
     <View style={styles.container}>
       <Image
-        source={require('expo-01/assets/images/minha-foto.png')} 
+        source={require('../assets/images/minha-foto.png')} 
         style={styles.image}
       />
       <Text style={styles.name}>Jader Silva</Text>
