@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "expo-01",
-    "slug": "expo-01",
+    "name": "PDM-20262",
+    "slug": "PDM-20262",
+    "owner": "pdm2026-2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -25,7 +26,6 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
-
     "plugins": [
       "expo-router",
       [
@@ -45,13 +45,17 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
-  "expo": {
-    "name": "PDM-20262",
-    "slug": "PDM-20262",
-    "owner": "pdm2026-2", 
-    "version": "1.0.0"
-    
-  }
-
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f356e8cd-8256-4eb3-a5d1-92918ac53f16"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f356e8cd-8256-4eb3-a5d1-92918ac53f16"
+    }
   }
 }
