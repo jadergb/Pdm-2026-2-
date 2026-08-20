@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import miniBio from 'expo-01/components/miniBio'; 
+// Caminho corrigido e nome do componente com 'M' maiúsculo!
+import MiniBio from '../components/miniBio'; 
 
 export default function App() {
   return (
