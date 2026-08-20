@@ -5,7 +5,7 @@ export default function Profile() {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../assets/images/minha-foto.png')} 
+        source={require('../assets/images/minha-foto.jpg')} 
         style={styles.image}
       />
       <Text style={styles.name}>Jader Silva</Text>
